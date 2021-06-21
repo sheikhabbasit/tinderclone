@@ -1,0 +1,210 @@
+body {
+  font-family: 'Montserrat, sans-serif';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+ /* Containers */
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: #fff;
+  color: black;
+}
+
+
+
+
+/* Headings */
+.bigHeading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 1000;
+}
+
+/* Title Section */
+#title {
+
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+.navbar {
+  margin-bottom: 4.5em;
+  padding: 8px 16px 8px 0;
+}
+
+.navbar-brand {
+  /* font-family: 'Do Hyeon', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.7rem;
+}
+
+.btn-margin {
+  margin: 5% 3% 5% 0;
+}
+
+.iphonealign {}
+
+.titleImage {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 50%;
+}
+
+/* Feature Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.featureTitles {
+  font-size: 1.5rem;
+}
+
+.colCentre {
+  /* Aligning the column contents */
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-item {}
+
+.testimonialText {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carouselImg {
+  border-radius: 35%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+}
+
+.pressLogos {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.card {
+    color: black;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+.priceHeading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricingColumn {
+  padding: 0 2% 2% 2%;
+}
+
+
+/* Call to Action */
+.ctaHeader {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {}
+
+.socialLinks {}
+
+.SMicons {
+  height: 20px;
+  width: 40px;
+  padding: 0 10px;
+}
+
+.copyright {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width:1180px) {
+  .titleImage {
+    position: static;
+    text-align: center;
+  }
+
+  .bigHeading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .iphonealign {
+    ;
+  }
+
+  .titleImage {
+    transform: rotate(0);
+  }
+}
